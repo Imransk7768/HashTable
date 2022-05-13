@@ -81,7 +81,7 @@ namespace HashTable
                     foreach (KeyValue<K, V> keyvalue in linkedList)
                     {
 
-                        Console.WriteLine(keyvalue.key + "" + " " + keyvalue.value);
+                        Console.WriteLine(keyvalue.key + " " + " " + keyvalue.value);
                     }
             }
         }
