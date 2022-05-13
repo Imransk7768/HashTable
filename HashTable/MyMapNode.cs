@@ -78,11 +78,11 @@ namespace HashTable
             {
                 if (linkedList != null)
 
-                    foreach (KeyValue<K, V> keyvalue in linkedList)
-                    {
-
-                        Console.WriteLine(keyvalue.key + " " + " " + keyvalue.value);
-                    }
+                  foreach (KeyValue<K, V> keyvalue in linkedList)
+                  {
+                  
+                      Console.WriteLine(keyvalue.key + "" + " " + keyvalue.value);
+                  }     }
             }
         }
     }
